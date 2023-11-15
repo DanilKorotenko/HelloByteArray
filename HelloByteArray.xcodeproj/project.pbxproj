@@ -120,6 +120,7 @@
 			children = (
 				DA576A8B2B04DA63007A38A8 /* cpp-httplib */,
 				DA576A852B04D9C7007A38A8 /* server */,
+				DA576AE92B04DB5B007A38A8 /* js-client */,
 				DA576A772B04D999007A38A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -342,6 +343,13 @@
 				DA576AE72B04DA63007A38A8 /* test.yaml */,
 			);
 			path = workflows;
+			sourceTree = "<group>";
+		};
+		DA576AE92B04DB5B007A38A8 /* js-client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "js-client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -12,16 +12,23 @@ int main(int argc, const char * argv[])
 {
     httplib::Server svr;
 
-    svr.Get("/byteArray",
+    svr.Post("/byteArray",
         [](const httplib::Request &req, httplib::Response &res)
         {
             std::cout << "************" << std::endl;
             std::cout << "byteArray: " << std::endl;
         });
+    svr.Post("/string",
+        [](const httplib::Request &req, httplib::Response &res)
+        {
+            std::cout << "************" << std::endl;
+            std::cout << "string: " << req.body << std::endl;
+            res.body = "{ \"allow\": true }";
+        });
 
     std::cout << "server ready" << std::endl;
 
-    svr.listen("0.0.0.0", 8080);
+    svr.listen("0.0.0.0", 250);
 
     return 0;
 }
