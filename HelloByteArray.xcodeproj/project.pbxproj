@@ -102,6 +102,7 @@
 		DA576AE32B04DA63007A38A8 /* split.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = split.py; sourceTree = "<group>"; };
 		DA576AE42B04DA63007A38A8 /* .clang-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
 		DA576AE72B04DA63007A38A8 /* test.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = test.yaml; sourceTree = "<group>"; };
+		DA576AEA2B04F16E007A38A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		DA576A6D2B04D999007A38A8 = {
 			isa = PBXGroup;
 			children = (
+				DA576AEA2B04F16E007A38A8 /* README.md */,
 				DA576A8B2B04DA63007A38A8 /* cpp-httplib */,
 				DA576A852B04D9C7007A38A8 /* server */,
 				DA576AE92B04DB5B007A38A8 /* js-client */,
