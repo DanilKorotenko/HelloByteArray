@@ -16,7 +16,8 @@ int main(int argc, const char * argv[])
         [](const httplib::Request &req, httplib::Response &res)
         {
             std::cout << "************" << std::endl;
-            std::cout << "byteArray: " << std::endl;
+            std::cout << "byteArray: " << req.body << std::endl;
+            res.body = "{ \"allow\": true }";
         });
     svr.Post("/string",
         [](const httplib::Request &req, httplib::Response &res)
