@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  HelloByteArray
+//  server
 //
 //  Created by Danil Korotenko on 11/15/23.
 //
