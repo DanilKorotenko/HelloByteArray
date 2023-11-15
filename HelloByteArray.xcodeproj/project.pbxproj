@@ -25,6 +25,83 @@
 /* Begin PBXFileReference section */
 		DA576A842B04D9C7007A38A8 /* server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = server; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA576A862B04D9C7007A38A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA576A8C2B04DA63007A38A8 /* httplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = httplib.h; sourceTree = "<group>"; };
+		DA576A8D2B04DA63007A38A8 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DA576A8E2B04DA63007A38A8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA576A922B04DA63007A38A8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DA576A932B04DA63007A38A8 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		DA576A942B04DA63007A38A8 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		DA576A952B04DA63007A38A8 /* test_proxy.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_proxy.cc; sourceTree = "<group>"; };
+		DA576A982B04DA63007A38A8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DA576A992B04DA63007A38A8 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		DA576A9A2B04DA63007A38A8 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		DA576A9B2B04DA63007A38A8 /* test.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.conf; sourceTree = "<group>"; };
+		DA576A9D2B04DA63007A38A8 /* server_fuzzer.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = server_fuzzer.cc; sourceTree = "<group>"; };
+		DA576A9E2B04DA63007A38A8 /* server_fuzzer.dict */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = server_fuzzer.dict; sourceTree = "<group>"; };
+		DA576A9F2B04DA63007A38A8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DA576AA12B04DA63007A38A8 /* issue1264 */ = {isa = PBXFileReference; lastKnownFileType = text; path = issue1264; sourceTree = "<group>"; };
+		DA576AA22B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5042094968537088 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5042094968537088"; sourceTree = "<group>"; };
+		DA576AA32B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-6508706672541696 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "clusterfuzz-testcase-minimized-server_fuzzer-6508706672541696"; sourceTree = "<group>"; };
+		DA576AA42B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5386708825800704 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5386708825800704"; sourceTree = "<group>"; };
+		DA576AA52B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5667822731132928 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5667822731132928"; sourceTree = "<group>"; };
+		DA576AA62B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-6007379124158464 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-6007379124158464"; sourceTree = "<group>"; };
+		DA576AA72B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5886572146327552 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5886572146327552"; sourceTree = "<group>"; };
+		DA576AA82B04DA63007A38A8 /* 1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1; sourceTree = "<group>"; };
+		DA576AA92B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5942767436562432 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5942767436562432"; sourceTree = "<group>"; };
+		DA576AAA2B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5372331946541056 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clusterfuzz-testcase-minimized-server_fuzzer-5372331946541056"; sourceTree = "<group>"; };
+		DA576AAB2B04DA63007A38A8 /* 3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3; sourceTree = "<group>"; };
+		DA576AAC2B04DA63007A38A8 /* 2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2; sourceTree = "<group>"; };
+		DA576AAD2B04DA63007A38A8 /* standalone_fuzz_target_runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = standalone_fuzz_target_runner.cpp; sourceTree = "<group>"; };
+		DA576AAE2B04DA63007A38A8 /* ca-bundle.crt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ca-bundle.crt"; sourceTree = "<group>"; };
+		DA576AAF2B04DA63007A38A8 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		DA576AB02B04DA63007A38A8 /* test.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.sln; sourceTree = "<group>"; };
+		DA576AB22B04DA63007A38A8 /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
+		DA576AB32B04DA63007A38A8 /* digest_passwd */ = {isa = PBXFileReference; lastKnownFileType = text; path = digest_passwd; sourceTree = "<group>"; };
+		DA576AB42B04DA63007A38A8 /* basic_passwd */ = {isa = PBXFileReference; lastKnownFileType = text; path = basic_passwd; sourceTree = "<group>"; };
+		DA576AB52B04DA63007A38A8 /* basic_squid.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = basic_squid.conf; sourceTree = "<group>"; };
+		DA576AB62B04DA63007A38A8 /* docker-compose.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "docker-compose.yml"; sourceTree = "<group>"; };
+		DA576AB72B04DA63007A38A8 /* digest_squid.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = digest_squid.conf; sourceTree = "<group>"; };
+		DA576AB82B04DA63007A38A8 /* test.rootCA.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.rootCA.conf; sourceTree = "<group>"; };
+		DA576AB92B04DA63007A38A8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DA576ABA2B04DA63007A38A8 /* include_httplib.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = include_httplib.cc; sourceTree = "<group>"; };
+		DA576ABD2B04DA63007A38A8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DA576ABE2B04DA63007A38A8 /* 1MB.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1MB.txt; sourceTree = "<group>"; };
+		DA576ABF2B04DA63007A38A8 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		DA576AC02B04DA63007A38A8 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		DA576AC12B04DA63007A38A8 /* test.abcde */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.abcde; sourceTree = "<group>"; };
+		DA576AC22B04DA63007A38A8 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		DA576AC42B04DA63007A38A8 /* gtest_main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gtest_main.cc; sourceTree = "<group>"; };
+		DA576AC52B04DA63007A38A8 /* gtest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtest.h; sourceTree = "<group>"; };
+		DA576AC62B04DA63007A38A8 /* gtest-all.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
+		DA576AC72B04DA63007A38A8 /* test.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cc; sourceTree = "<group>"; };
+		DA576AC82B04DA63007A38A8 /* test.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.vcxproj; sourceTree = "<group>"; };
+		DA576AC92B04DA63007A38A8 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		DA576ACB2B04DA63007A38A8 /* FindBrotli.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBrotli.cmake; sourceTree = "<group>"; };
+		DA576ACD2B04DA63007A38A8 /* ca-bundle.crt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ca-bundle.crt"; sourceTree = "<group>"; };
+		DA576ACE2B04DA63007A38A8 /* ssecli.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ssecli.cc; sourceTree = "<group>"; };
+		DA576ACF2B04DA63007A38A8 /* simplesvr.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simplesvr.cc; sourceTree = "<group>"; };
+		DA576AD02B04DA63007A38A8 /* client.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = client.vcxproj; sourceTree = "<group>"; };
+		DA576AD12B04DA63007A38A8 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DA576AD22B04DA63007A38A8 /* example.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = example.sln; sourceTree = "<group>"; };
+		DA576AD32B04DA63007A38A8 /* server.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = server.vcxproj; sourceTree = "<group>"; };
+		DA576AD42B04DA63007A38A8 /* client.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = client.cc; sourceTree = "<group>"; };
+		DA576AD52B04DA63007A38A8 /* simplecli.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simplecli.cc; sourceTree = "<group>"; };
+		DA576AD62B04DA63007A38A8 /* redirect.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = redirect.cc; sourceTree = "<group>"; };
+		DA576AD72B04DA63007A38A8 /* ssesvr.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ssesvr.cc; sourceTree = "<group>"; };
+		DA576AD82B04DA63007A38A8 /* server.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = server.cc; sourceTree = "<group>"; };
+		DA576AD92B04DA63007A38A8 /* hello.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cc; sourceTree = "<group>"; };
+		DA576ADA2B04DA63007A38A8 /* upload.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = upload.cc; sourceTree = "<group>"; };
+		DA576ADB2B04DA63007A38A8 /* uploader.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = uploader.sh; sourceTree = "<group>"; };
+		DA576ADC2B04DA63007A38A8 /* Dockerfile.hello */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile.hello; sourceTree = "<group>"; };
+		DA576ADD2B04DA63007A38A8 /* benchmark.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cc; sourceTree = "<group>"; };
+		DA576ADE2B04DA63007A38A8 /* meson_options.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson_options.txt; sourceTree = "<group>"; };
+		DA576ADF2B04DA63007A38A8 /* httplibConfig.cmake.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = httplibConfig.cmake.in; sourceTree = "<group>"; };
+		DA576AE02B04DA63007A38A8 /* meson.build */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson.build; sourceTree = "<group>"; };
+		DA576AE12B04DA63007A38A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA576AE22B04DA63007A38A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA576AE32B04DA63007A38A8 /* split.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = split.py; sourceTree = "<group>"; };
+		DA576AE42B04DA63007A38A8 /* .clang-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
+		DA576AE72B04DA63007A38A8 /* test.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = test.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +118,7 @@
 		DA576A6D2B04D999007A38A8 = {
 			isa = PBXGroup;
 			children = (
+				DA576A8B2B04DA63007A38A8 /* cpp-httplib */,
 				DA576A852B04D9C7007A38A8 /* server */,
 				DA576A772B04D999007A38A8 /* Products */,
 			);
@@ -60,6 +138,210 @@
 				DA576A862B04D9C7007A38A8 /* main.cpp */,
 			);
 			path = server;
+			sourceTree = "<group>";
+		};
+		DA576A8B2B04DA63007A38A8 /* cpp-httplib */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A8C2B04DA63007A38A8 /* httplib.h */,
+				DA576A8D2B04DA63007A38A8 /* CMakeLists.txt */,
+				DA576A8E2B04DA63007A38A8 /* LICENSE */,
+				DA576A8F2B04DA63007A38A8 /* test */,
+				DA576ACA2B04DA63007A38A8 /* cmake */,
+				DA576ACC2B04DA63007A38A8 /* example */,
+				DA576ADE2B04DA63007A38A8 /* meson_options.txt */,
+				DA576ADF2B04DA63007A38A8 /* httplibConfig.cmake.in */,
+				DA576AE02B04DA63007A38A8 /* meson.build */,
+				DA576AE12B04DA63007A38A8 /* README.md */,
+				DA576AE22B04DA63007A38A8 /* .gitignore */,
+				DA576AE32B04DA63007A38A8 /* split.py */,
+				DA576AE42B04DA63007A38A8 /* .clang-format */,
+				DA576AE52B04DA63007A38A8 /* .github */,
+			);
+			path = "cpp-httplib";
+			sourceTree = "<group>";
+		};
+		DA576A8F2B04DA63007A38A8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A902B04DA63007A38A8 /* www2 */,
+				DA576A952B04DA63007A38A8 /* test_proxy.cc */,
+				DA576A962B04DA63007A38A8 /* www3 */,
+				DA576A9B2B04DA63007A38A8 /* test.conf */,
+				DA576A9C2B04DA63007A38A8 /* fuzzing */,
+				DA576AAE2B04DA63007A38A8 /* ca-bundle.crt */,
+				DA576AAF2B04DA63007A38A8 /* CMakeLists.txt */,
+				DA576AB02B04DA63007A38A8 /* test.sln */,
+				DA576AB12B04DA63007A38A8 /* proxy */,
+				DA576AB82B04DA63007A38A8 /* test.rootCA.conf */,
+				DA576AB92B04DA63007A38A8 /* Makefile */,
+				DA576ABA2B04DA63007A38A8 /* include_httplib.cc */,
+				DA576ABB2B04DA63007A38A8 /* www */,
+				DA576AC22B04DA63007A38A8 /* meson.build */,
+				DA576AC32B04DA63007A38A8 /* gtest */,
+				DA576AC72B04DA63007A38A8 /* test.cc */,
+				DA576AC82B04DA63007A38A8 /* test.vcxproj */,
+				DA576AC92B04DA63007A38A8 /* image.jpg */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DA576A902B04DA63007A38A8 /* www2 */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A912B04DA63007A38A8 /* dir */,
+			);
+			path = www2;
+			sourceTree = "<group>";
+		};
+		DA576A912B04DA63007A38A8 /* dir */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A922B04DA63007A38A8 /* index.html */,
+				DA576A932B04DA63007A38A8 /* meson.build */,
+				DA576A942B04DA63007A38A8 /* test.html */,
+			);
+			path = dir;
+			sourceTree = "<group>";
+		};
+		DA576A962B04DA63007A38A8 /* www3 */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A972B04DA63007A38A8 /* dir */,
+			);
+			path = www3;
+			sourceTree = "<group>";
+		};
+		DA576A972B04DA63007A38A8 /* dir */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A982B04DA63007A38A8 /* index.html */,
+				DA576A992B04DA63007A38A8 /* meson.build */,
+				DA576A9A2B04DA63007A38A8 /* test.html */,
+			);
+			path = dir;
+			sourceTree = "<group>";
+		};
+		DA576A9C2B04DA63007A38A8 /* fuzzing */ = {
+			isa = PBXGroup;
+			children = (
+				DA576A9D2B04DA63007A38A8 /* server_fuzzer.cc */,
+				DA576A9E2B04DA63007A38A8 /* server_fuzzer.dict */,
+				DA576A9F2B04DA63007A38A8 /* Makefile */,
+				DA576AA02B04DA63007A38A8 /* corpus */,
+				DA576AAD2B04DA63007A38A8 /* standalone_fuzz_target_runner.cpp */,
+			);
+			path = fuzzing;
+			sourceTree = "<group>";
+		};
+		DA576AA02B04DA63007A38A8 /* corpus */ = {
+			isa = PBXGroup;
+			children = (
+				DA576AA12B04DA63007A38A8 /* issue1264 */,
+				DA576AA22B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5042094968537088 */,
+				DA576AA32B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-6508706672541696 */,
+				DA576AA42B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5386708825800704 */,
+				DA576AA52B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5667822731132928 */,
+				DA576AA62B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-6007379124158464 */,
+				DA576AA72B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5886572146327552 */,
+				DA576AA82B04DA63007A38A8 /* 1 */,
+				DA576AA92B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5942767436562432 */,
+				DA576AAA2B04DA63007A38A8 /* clusterfuzz-testcase-minimized-server_fuzzer-5372331946541056 */,
+				DA576AAB2B04DA63007A38A8 /* 3 */,
+				DA576AAC2B04DA63007A38A8 /* 2 */,
+			);
+			path = corpus;
+			sourceTree = "<group>";
+		};
+		DA576AB12B04DA63007A38A8 /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				DA576AB22B04DA63007A38A8 /* Dockerfile */,
+				DA576AB32B04DA63007A38A8 /* digest_passwd */,
+				DA576AB42B04DA63007A38A8 /* basic_passwd */,
+				DA576AB52B04DA63007A38A8 /* basic_squid.conf */,
+				DA576AB62B04DA63007A38A8 /* docker-compose.yml */,
+				DA576AB72B04DA63007A38A8 /* digest_squid.conf */,
+			);
+			path = proxy;
+			sourceTree = "<group>";
+		};
+		DA576ABB2B04DA63007A38A8 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				DA576ABC2B04DA63007A38A8 /* dir */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		DA576ABC2B04DA63007A38A8 /* dir */ = {
+			isa = PBXGroup;
+			children = (
+				DA576ABD2B04DA63007A38A8 /* index.html */,
+				DA576ABE2B04DA63007A38A8 /* 1MB.txt */,
+				DA576ABF2B04DA63007A38A8 /* meson.build */,
+				DA576AC02B04DA63007A38A8 /* test.html */,
+				DA576AC12B04DA63007A38A8 /* test.abcde */,
+			);
+			path = dir;
+			sourceTree = "<group>";
+		};
+		DA576AC32B04DA63007A38A8 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				DA576AC42B04DA63007A38A8 /* gtest_main.cc */,
+				DA576AC52B04DA63007A38A8 /* gtest.h */,
+				DA576AC62B04DA63007A38A8 /* gtest-all.cc */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		DA576ACA2B04DA63007A38A8 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				DA576ACB2B04DA63007A38A8 /* FindBrotli.cmake */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		DA576ACC2B04DA63007A38A8 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				DA576ACD2B04DA63007A38A8 /* ca-bundle.crt */,
+				DA576ACE2B04DA63007A38A8 /* ssecli.cc */,
+				DA576ACF2B04DA63007A38A8 /* simplesvr.cc */,
+				DA576AD02B04DA63007A38A8 /* client.vcxproj */,
+				DA576AD12B04DA63007A38A8 /* Makefile */,
+				DA576AD22B04DA63007A38A8 /* example.sln */,
+				DA576AD32B04DA63007A38A8 /* server.vcxproj */,
+				DA576AD42B04DA63007A38A8 /* client.cc */,
+				DA576AD52B04DA63007A38A8 /* simplecli.cc */,
+				DA576AD62B04DA63007A38A8 /* redirect.cc */,
+				DA576AD72B04DA63007A38A8 /* ssesvr.cc */,
+				DA576AD82B04DA63007A38A8 /* server.cc */,
+				DA576AD92B04DA63007A38A8 /* hello.cc */,
+				DA576ADA2B04DA63007A38A8 /* upload.cc */,
+				DA576ADB2B04DA63007A38A8 /* uploader.sh */,
+				DA576ADC2B04DA63007A38A8 /* Dockerfile.hello */,
+				DA576ADD2B04DA63007A38A8 /* benchmark.cc */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		DA576AE52B04DA63007A38A8 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				DA576AE62B04DA63007A38A8 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		DA576AE62B04DA63007A38A8 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				DA576AE72B04DA63007A38A8 /* test.yaml */,
+			);
+			path = workflows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
